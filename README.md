@@ -26,3 +26,6 @@ public class Example {
 ```
 
 For everything not covered by the cheat sheet, please refer to [Google Java Style] (https://google-styleguide.googlecode.com/svn/trunk/javaguide.html).
+
+## Eclipse
+If you are using [Eclipse](http://www.eclipse.org/) IDE, you can download and use our Formatter profile. You can import it in your project in Project/Properties/Java Code Style/Formatter after you 'Enable project specific settings'.
