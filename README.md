@@ -24,3 +24,5 @@ public class Example {
     }
 }
 ```
+
+For everything not covered by the cheat sheet, please refer to [Google Java Style] (https://google-styleguide.googlecode.com/svn/trunk/javaguide.html).
