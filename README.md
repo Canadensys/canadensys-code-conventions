@@ -37,7 +37,7 @@ Notes:
  1. `default`, `exists` and `if_exists` are all deprecated.
  2. `model.data.str!"na"` will fail if `model.data` or `model` is missing.`(model.data.str)!"na"` would prevent that.
  
- For more information, Freemarker missing values [documentation](http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing)
+For more information, Freemarker missing values [documentation](http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing)
 
 ## Eclipse
 If you are using [Eclipse IDE](http://www.eclipse.org/), you can download and use our [Formatter profile](https://raw.githubusercontent.com/Canadensys/canadensys-code-conventions/master/java/eclipse/canadensys-code-format.xml).To import it in your project go to `Project/Properties/Java Code Style/Formatter` and check 'Enable project specific settings'. Then, you can import the XML file and set it as active profile.
