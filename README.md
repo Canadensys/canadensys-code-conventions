@@ -33,7 +33,7 @@ For everything not covered by the cheat sheet, please refer to [Google Java Styl
  * Has content operator `?has_content`, check if the variable exists and contains something, returns boolean
  * Default value operator `!`, returns a default value if the variable doesn't exist (e.g. `model.data.str!"na"`)
  
- Notes:
+Notes:
  1. `default`, `exists` and `if_exists` are all deprecated.
  2. `model.data.str!"na"` will fail if `model.data` or `model` is missing.`(model.data.str)!"na"` would prevent that.
  
