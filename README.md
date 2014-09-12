@@ -29,11 +29,14 @@ For everything not covered by the cheat sheet, please refer to [Google Java Styl
 # Freemarker
 
 ## Cheat sheet
- * Missing value operator `??`, returns boolean
- * Has content operator `?has_content`, returns boolean
- * Default value operator `!`, return default value if the variable is missing (e.g. `model.data.str!"na"`)
+ * Missing value operator `??`, check if the variable exists, returns boolean
+ * Has content operator `?has_content`, check if the variable exists and contains something, returns boolean
+ * Default value operator `!`, returns a default value if the variable doesn't exist (e.g. `model.data.str!"na"`)
  
- Note: `default`, `exists` and `if_exists` are all deprecated.
+ Notes:
+ 1. `default`, `exists` and `if_exists` are all deprecated.
+ 2. `model.data.str!"na"` will fail if `model.data` or `model` is missing.`(model.data.str)!"na"` would prevent that.
+ 
  For more information, Freemarker missing values [documentation](http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing)
 
 ## Eclipse
